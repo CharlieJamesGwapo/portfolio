@@ -1,0 +1,204 @@
+================================================================================
+  CHARLIE JAMES Z. ABEJO - PERSONAL PORTFOLIO
+  Installation & Deployment Instructions
+================================================================================
+
+📋 WHAT YOU NEED:
+  ✓ Node.js installed (download from nodejs.org if not installed)
+  ✓ A code editor (VS Code recommended)
+  ✓ Terminal/Command Prompt access
+  ✓ Internet connection
+
+================================================================================
+🚀 STEP-BY-STEP INSTALLATION
+================================================================================
+
+STEP 1: Open Terminal in Project Folder
+----------------------------------------
+  • Open the 'portfoliobboy' folder
+  • Right-click and select "Open in Terminal" or "Open PowerShell here"
+  • Or use Command Prompt and navigate to the folder:
+    cd "C:\Users\Kate Zairah\OneDrive\Desktop\portfoliobboy"
+
+STEP 2: Install Dependencies
+-----------------------------
+  Run this command in the terminal:
+  
+    npm install
+  
+  Wait for it to complete (may take 2-5 minutes)
+  You should see "added XXX packages" when done
+
+STEP 3: Start Development Server
+---------------------------------
+  Run this command:
+  
+    npm run dev
+  
+  You should see:
+    ➜  Local:   http://localhost:5173/
+  
+  Open that URL in your browser!
+
+STEP 4: View Your Portfolio
+----------------------------
+  • Your portfolio should now be running
+  • Open http://localhost:5173 in your browser
+  • You should see your portfolio with all sections
+
+================================================================================
+🌐 DEPLOYING TO VERCEL (Make it Live!)
+================================================================================
+
+OPTION A: Using Vercel CLI (Recommended)
+-----------------------------------------
+
+1. Install Vercel CLI:
+   npm install -g vercel
+
+2. Login to Vercel:
+   vercel login
+   (Follow the prompts to login)
+
+3. Deploy your site:
+   vercel
+   (Answer the setup questions)
+
+4. Deploy to production:
+   vercel --prod
+
+5. Done! You'll get a live URL like:
+   https://your-portfolio.vercel.app
+
+
+OPTION B: Using GitHub + Vercel Dashboard
+------------------------------------------
+
+1. Create a GitHub account (if you don't have one)
+   Visit: https://github.com
+
+2. Install Git (if not installed)
+   Download from: https://git-scm.com
+
+3. Initialize Git in your project:
+   git init
+   git add .
+   git commit -m "Initial commit"
+
+4. Create a new repository on GitHub
+   • Go to GitHub and click "New Repository"
+   • Name it "portfolio" or similar
+   • Copy the repository URL
+
+5. Push your code to GitHub:
+   git remote add origin YOUR_GITHUB_REPO_URL
+   git branch -M main
+   git push -u origin main
+
+6. Deploy on Vercel:
+   • Go to https://vercel.com
+   • Sign up/Login (use GitHub account)
+   • Click "New Project"
+   • Import your GitHub repository
+   • Click "Deploy"
+
+7. Done! Your site is live!
+
+================================================================================
+🎨 CUSTOMIZATION (Optional)
+================================================================================
+
+To add your social media links:
+--------------------------------
+1. Open these files in your code editor:
+   • src/components/Hero.jsx
+   • src/components/Contact.jsx
+   • src/components/Footer.jsx
+
+2. Find lines with href="#" and replace with your URLs:
+   <a href="https://github.com/YOUR_USERNAME">
+   <a href="https://linkedin.com/in/YOUR_PROFILE">
+
+To change colors:
+-----------------
+1. Open: tailwind.config.js
+2. Change the color values:
+   primary: '#3b82f6',  // Change this
+   secondary: '#8b5cf6', // And this
+
+================================================================================
+📱 TESTING CHECKLIST
+================================================================================
+
+Before deploying, test these:
+  □ All sections load correctly
+  □ Navigation menu works
+  □ Mobile menu opens/closes
+  □ All links are clickable
+  □ Contact form displays
+  □ Scroll-to-top button appears
+  □ Test on mobile view (use browser DevTools)
+
+================================================================================
+🆘 TROUBLESHOOTING
+================================================================================
+
+Problem: "npm is not recognized"
+Solution: Install Node.js from nodejs.org
+
+Problem: Port 5173 already in use
+Solution: The dev server will use the next available port automatically
+
+Problem: Dependencies won't install
+Solution: 
+  1. Delete node_modules folder
+  2. Run: npm cache clean --force
+  3. Run: npm install
+
+Problem: Site won't load
+Solution:
+  1. Check if dev server is running
+  2. Make sure you're using the correct URL
+  3. Try restarting the dev server (Ctrl+C, then npm run dev)
+
+Problem: Build fails
+Solution:
+  1. Make sure all dependencies are installed
+  2. Check for error messages in terminal
+  3. Try: npm run build
+
+================================================================================
+📚 HELPFUL COMMANDS
+================================================================================
+
+npm install          - Install all dependencies
+npm run dev          - Start development server
+npm run build        - Build for production
+npm run preview      - Preview production build
+vercel               - Deploy to Vercel (staging)
+vercel --prod        - Deploy to Vercel (production)
+
+================================================================================
+📖 DOCUMENTATION FILES
+================================================================================
+
+README.md           - Complete project documentation
+QUICKSTART.md       - Quick setup guide
+DEPLOYMENT.md       - Detailed deployment instructions
+CHECKLIST.md        - Pre-deployment checklist
+PROJECT_SUMMARY.md  - Project overview
+
+Read these files for more detailed information!
+
+================================================================================
+✨ YOU'RE ALL SET!
+================================================================================
+
+Your portfolio is ready to go live! Follow the steps above and you'll have
+a professional portfolio website deployed to the internet in minutes.
+
+Questions? Check the documentation files or the troubleshooting section above.
+
+Good luck with your portfolio! 🚀
+
+================================================================================

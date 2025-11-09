@@ -1,0 +1,249 @@
+================================================================================
+  DEPLOYMENT CHECKLIST - Charlie James Abejo Portfolio
+================================================================================
+
+✅ = Completed
+⬜ = To Do
+
+PRE-DEPLOYMENT CHECKS
+================================================================================
+
+⬜ 1. Install Node.js
+     Download from: https://nodejs.org
+     Check: Open terminal and run: node --version
+
+⬜ 2. Install Dependencies
+     Command: npm install
+     Wait for completion (2-5 minutes)
+
+⬜ 3. Test Locally
+     Command: npm run dev
+     Open: http://localhost:5173
+     Check all sections load correctly
+
+⬜ 4. Verify Your Information
+     ✓ Name: Charlie James Z. Abejo
+     ✓ Email: capstonee2@gmail.com
+     ✓ Phone: 09856122843
+     ✓ GitHub: https://github.com/CharlieJamesGwapo
+     ✓ LinkedIn: https://www.linkedin.com/in/charlie-james-abejo-26362638a/
+     ✓ Facebook: https://www.facebook.com/Retrigadz
+
+⬜ 5. Test Features
+     ⬜ Navigation menu works
+     ⬜ Mobile menu opens/closes
+     ⬜ All sections scroll smoothly
+     ⬜ Contact form displays
+     ⬜ Live clock shows time
+     ⬜ Role changes every 3 seconds
+     ⬜ Profile photo displays
+     ⬜ All social links work
+
+⬜ 6. Test Mobile View
+     In browser: Press F12 → Click device icon
+     Test on: Mobile (375px), Tablet (768px), Desktop (1440px)
+
+================================================================================
+GITHUB SETUP
+================================================================================
+
+⬜ 7. Install Git
+     Download from: https://git-scm.com
+     Check: git --version
+
+⬜ 8. Create GitHub Repository
+     Go to: https://github.com/CharlieJamesGwapo
+     Click: "New" repository
+     Name: portfolio
+     Visibility: Public
+     Don't initialize with README
+     Click: "Create repository"
+
+⬜ 9. Push Code to GitHub
+     Open terminal in project folder:
+     
+     git init
+     git add .
+     git commit -m "Professional portfolio ready for deployment"
+     git remote add origin https://github.com/CharlieJamesGwapo/portfolio.git
+     git branch -M main
+     git push -u origin main
+
+⬜ 10. Verify on GitHub
+      Go to: https://github.com/CharlieJamesGwapo/portfolio
+      Check: All files are uploaded
+
+================================================================================
+VERCEL DEPLOYMENT
+================================================================================
+
+⬜ 11. Create Vercel Account
+      Go to: https://vercel.com
+      Click: "Sign Up"
+      Choose: "Continue with GitHub"
+      Authorize Vercel
+
+⬜ 12. Import Repository
+      Click: "Add New..." → "Project"
+      Find: "portfolio" repository
+      Click: "Import"
+
+⬜ 13. Configure Project
+      Framework Preset: Vite (auto-detected)
+      Root Directory: ./
+      Build Command: npm run build
+      Output Directory: dist
+      Click: "Deploy"
+
+⬜ 14. Wait for Deployment
+      Wait: 2-3 minutes
+      Status: Check deployment progress
+
+⬜ 15. Get Your Live URL
+      Copy your URL: https://portfolio-username.vercel.app
+      Save it for sharing!
+
+================================================================================
+POST-DEPLOYMENT VERIFICATION
+================================================================================
+
+⬜ 16. Test Live Site
+      ⬜ Open your Vercel URL
+      ⬜ Check all sections load
+      ⬜ Test navigation
+      ⬜ Test mobile view
+      ⬜ Check profile photo displays
+      ⬜ Test all links (GitHub, LinkedIn, Facebook)
+      ⬜ Test contact form
+      ⬜ Check live clock works
+      ⬜ Verify animations are smooth
+
+⬜ 17. Test on Different Devices
+      ⬜ Desktop browser
+      ⬜ Mobile phone
+      ⬜ Tablet
+      ⬜ Different browsers (Chrome, Firefox, Safari)
+
+⬜ 18. Check All Links
+      ⬜ GitHub link opens: https://github.com/CharlieJamesGwapo
+      ⬜ LinkedIn opens: https://www.linkedin.com/in/charlie-james-abejo-26362638a/
+      ⬜ Facebook opens: https://www.facebook.com/Retrigadz
+      ⬜ Email link works: capstonee2@gmail.com
+      ⬜ Phone link works: 09856122843
+
+================================================================================
+SHARE YOUR PORTFOLIO
+================================================================================
+
+⬜ 19. Update LinkedIn
+      Go to: https://www.linkedin.com/in/charlie-james-abejo-26362638a/
+      Add portfolio URL to profile
+      Post about your new portfolio
+
+⬜ 20. Update GitHub Profile
+      Go to: https://github.com/CharlieJamesGwapo
+      Add portfolio URL to bio
+      Pin the portfolio repository
+
+⬜ 21. Share on Facebook
+      Post your portfolio URL
+      Tag: #WebDevelopment #Portfolio #FullStackDeveloper
+
+⬜ 22. Update Resume
+      Add portfolio URL to your resume
+      Include in job applications
+
+⬜ 23. Email Signature
+      Add portfolio URL to email signature
+
+================================================================================
+OPTIONAL ENHANCEMENTS
+================================================================================
+
+⬜ 24. Custom Domain (Optional)
+      Buy domain (e.g., charliejames.dev)
+      Add to Vercel in Settings → Domains
+      Configure DNS
+
+⬜ 25. Enable Analytics (Optional)
+      Go to Vercel project
+      Click: Analytics tab
+      Enable analytics
+      Track visitors
+
+⬜ 26. Add Google Analytics (Optional)
+      Create Google Analytics account
+      Add tracking code to index.html
+
+================================================================================
+MAINTENANCE
+================================================================================
+
+⬜ 27. Regular Updates
+      Update projects as you complete them
+      Add new certifications
+      Keep skills section current
+
+⬜ 28. Auto-Deployment Setup
+      Every git push will auto-deploy
+      Test: Make a small change
+      Push to GitHub
+      Check Vercel auto-deploys
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If you encounter issues:
+
+Problem: npm not recognized
+Solution: Install Node.js from nodejs.org
+
+Problem: Git not recognized  
+Solution: Install Git from git-scm.com
+
+Problem: GitHub authentication fails
+Solution: Use personal access token instead of password
+
+Problem: Vercel build fails
+Solution: Check build logs, ensure npm run build works locally
+
+Problem: Profile photo not showing
+Solution: Ensure public/profile.png exists
+
+Problem: Links not working
+Solution: Check URLs in components, ensure target="_blank" is set
+
+================================================================================
+SUPPORT RESOURCES
+================================================================================
+
+Documentation:
+- README.md - Complete project documentation
+- DEPLOY_GUIDE.md - Detailed deployment steps
+- FINAL_SUMMARY.md - Overview of everything
+
+Helpful Links:
+- Node.js: https://nodejs.org
+- Git: https://git-scm.com
+- GitHub: https://github.com
+- Vercel: https://vercel.com
+- Vercel Docs: https://vercel.com/docs
+
+================================================================================
+COMPLETION
+================================================================================
+
+When all items are checked:
+✅ Your portfolio is live!
+✅ All features work!
+✅ Ready to share with employers!
+✅ Auto-deployment is active!
+
+Congratulations! Your professional portfolio is now live! 🎉
+
+Your Portfolio URL: _________________________________
+
+Share it with the world! 🚀
+
+================================================================================
